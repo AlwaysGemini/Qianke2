@@ -47,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Intent intent = new Intent(MainActivity.this,Login_Register.class);
+        startActivity(intent);
+
         check_in_fragment = new Check_in_Fragment();
         getSupportFragmentManager().beginTransaction().replace(R.id.container, check_in_fragment).commitAllowingStateLoss();
 

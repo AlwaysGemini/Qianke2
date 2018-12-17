@@ -55,7 +55,7 @@ INJECTED from F:\Qianke2\app\src\main\AndroidManifest.xml:2:1-27:12
 	xmlns:android
 		ADDED from F:\Qianke2\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from F:\Qianke2\app\src\main\AndroidManifest.xml:5:5-66
+ADDED from F:\Qianke2\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
 		ADDED from F:\Qianke2\app\src\main\AndroidManifest.xml:5:22-64
 application
@@ -75,7 +75,7 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administra
 	android:label
 		ADDED from F:\Qianke2\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from F:\Qianke2\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from F:\Qianke2\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
 		ADDED from F:\Qianke2\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
@@ -83,7 +83,7 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administra
 	android:theme
 		ADDED from F:\Qianke2\app\src\main\AndroidManifest.xml:14:9-40
 	android:networkSecurityConfig
-		ADDED from F:\Qianke2\app\src\main\AndroidManifest.xml:12:9-69
+		ADDED from F:\Qianke2\app\src\main\AndroidManifest.xml:11:9-69
 activity#com.example.administrator.qianke.MainActivity
 ADDED from F:\Qianke2\app\src\main\AndroidManifest.xml:15:9-23:20
 	android:label
@@ -100,10 +100,10 @@ category#android.intent.category.LAUNCHER
 ADDED from F:\Qianke2\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
 		ADDED from F:\Qianke2\app\src\main\AndroidManifest.xml:21:27-74
-activity#com.example.administrator.qianke.LoginActivity
-ADDED from F:\Qianke2\app\src\main\AndroidManifest.xml:24:9-60
+activity#com.example.administrator.qianke.Login_Register
+ADDED from F:\Qianke2\app\src\main\AndroidManifest.xml:24:9-61
 	android:name
-		ADDED from F:\Qianke2\app\src\main\AndroidManifest.xml:24:19-48
+		ADDED from F:\Qianke2\app\src\main\AndroidManifest.xml:24:19-49
 uses-sdk
 INJECTED from F:\Qianke2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\Qianke2\app\src\main\AndroidManifest.xml

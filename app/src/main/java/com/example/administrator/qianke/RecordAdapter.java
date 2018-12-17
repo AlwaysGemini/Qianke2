@@ -15,6 +15,6 @@ public class RecordAdapter extends BaseQuickAdapter<Record,BaseViewHolder> {
     @Override
     protected void convert(BaseViewHolder helper, Record item) {
         helper.setText(R.id.student_id,item.getStudent_id())
-        .setText(R.id.state,item.getState());
+        .setText(R.id.state,item.getState() );
     }
 }

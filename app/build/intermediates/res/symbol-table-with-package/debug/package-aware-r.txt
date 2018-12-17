@@ -1582,6 +1582,7 @@ id ifRoom
 id image
 id info
 id invisible
+id isInstructor
 id isStudent
 id isTeacher
 id italic
@@ -1623,7 +1624,6 @@ id parent
 id parentPanel
 id parent_matrix
 id password
-id password_confirm
 id percent
 id pin
 id progress_circular
@@ -1636,6 +1636,7 @@ id qmui_view_can_not_cache_tag
 id qmui_view_offset_helper
 id radio
 id record
+id register
 id right
 id right_icon
 id right_side
@@ -1721,6 +1722,7 @@ id useLogo
 id vertical
 id view_offset_helper
 id visible
+id welcome
 id withText
 id wrap
 id wrap_content
@@ -1772,7 +1774,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_login
+layout activity_login__register
 layout activity_main
 layout check_in_fragment
 layout design_bottom_navigation_item
@@ -1789,6 +1791,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout login_fragment
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
@@ -1812,6 +1815,7 @@ layout qmui_popup_layout
 layout qmui_tip_dialog_layout
 layout quick_view_load_more
 layout record_item
+layout register_fragment
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

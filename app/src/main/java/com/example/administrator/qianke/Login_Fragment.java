@@ -1,61 +1,58 @@
 package com.example.administrator.qianke;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
+import android.widget.TextView;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-
-import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.net.URL;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
-import okhttp3.FormBody;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
-public class LoginActivity extends AppCompatActivity {
+public class Login_Fragment extends Fragment implements View.OnClickListener {
 
     public static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
+
+    private Register_Fragment register_fragment;
 
     private EditText account;
     private EditText password_edit;
     private Button login;
+    private TextView register;
+
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.login_fragment, null);
+
+        login = view.findViewById(R.id.login);
+        account = view.findViewById(R.id.account);
+        password_edit = view.findViewById(R.id.password);
+        register = view.findViewById(R.id.register);
+
+        return view;
+    }
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
 
-        login = findViewById(R.id.login);
-        account = findViewById(R.id.account);
-        password_edit = findViewById(R.id.password);
-
-        login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                new Thread(){
-                    @Override
-                    public void run() {
-                        postJson();
-                    }
-                }.start();
-
-            }
-        });
+        password_edit.setOnClickListener(this);
+        register.setOnClickListener(this);
     }
 
     String phone_number = "17718150790";
@@ -85,4 +82,21 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.login:
+                new Thread(){
+                    @Override
+                    public void run() {
+                        postJson();
+                    }
+                }.start();
+                break;
+            case R.id.register:
+                register_fragment = new Register_Fragment();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container, register_fragment).commitAllowingStateLoss();
+                break;
+        }
+    }
 }

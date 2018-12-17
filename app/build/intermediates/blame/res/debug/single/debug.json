@@ -908,6 +908,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\b7ac0574778a5400f1bb503fbfed4095\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
+        "merged": "F:\\Qianke2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login__register.xml.flat",
+        "source": "F:\\Qianke2\\app\\src\\main\\res\\layout\\activity_login__register.xml"
+    },
+    {
         "merged": "F:\\Qianke2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_avd_show_password.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\39783627095d231b0637bf6c387d7974\\res\\drawable-v21\\avd_show_password.xml"
     },
@@ -1760,6 +1764,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.3.aar\\c415bc022693433e08e80cb3d1bbde68\\res\\drawable-hdpi-v4\\qmui_icon_topbar_back.png"
     },
     {
+        "merged": "F:\\Qianke2\\app\\build\\intermediates\\res\\merged\\debug\\layout_login_fragment.xml.flat",
+        "source": "F:\\Qianke2\\app\\src\\main\\res\\layout\\login_fragment.xml"
+    },
+    {
         "merged": "F:\\Qianke2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\b7ac0574778a5400f1bb503fbfed4095\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
@@ -1794,10 +1802,6 @@
     {
         "merged": "F:\\Qianke2\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_show_motion_spec.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\39783627095d231b0637bf6c387d7974\\res\\animator\\mtrl_fab_show_motion_spec.xml"
-    },
-    {
-        "merged": "F:\\Qianke2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "F:\\Qianke2\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
         "merged": "F:\\Qianke2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -2244,12 +2248,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\b7ac0574778a5400f1bb503fbfed4095\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "F:\\Qianke2\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_tab_text.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\39783627095d231b0637bf6c387d7974\\res\\layout\\design_layout_tab_text.xml"
-    },
-    {
         "merged": "F:\\Qianke2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_design_bottom_navigation_item_background.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\39783627095d231b0637bf6c387d7974\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "F:\\Qianke2\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_tab_text.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\39783627095d231b0637bf6c387d7974\\res\\layout\\design_layout_tab_text.xml"
     },
     {
         "merged": "F:\\Qianke2\\app\\build\\intermediates\\res\\merged\\debug\\anim_decelerate_factor_interpolator.xml.flat",
@@ -2414,6 +2418,10 @@
     {
         "merged": "F:\\Qianke2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_qmui_icon_switch_checked.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.3.aar\\c415bc022693433e08e80cb3d1bbde68\\res\\drawable-xhdpi-v4\\qmui_icon_switch_checked.png"
+    },
+    {
+        "merged": "F:\\Qianke2\\app\\build\\intermediates\\res\\merged\\debug\\layout_register_fragment.xml.flat",
+        "source": "F:\\Qianke2\\app\\src\\main\\res\\layout\\register_fragment.xml"
     },
     {
         "merged": "F:\\Qianke2\\app\\build\\intermediates\\res\\merged\\debug\\color_qmui_s_transparent.xml.flat",
