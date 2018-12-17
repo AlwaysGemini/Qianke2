@@ -1520,7 +1520,9 @@ id chevron
 id chronometer
 id clip_horizontal
 id clip_vertical
+id code
 id collapseActionView
+id confirm_password
 id container
 id content
 id contentPanel
@@ -1593,6 +1595,10 @@ id left
 id left_center
 id line1
 id line3
+id line_account
+id line_confirm_password
+id line_password
+id line_request_code
 id listMode
 id list_item
 id listview
@@ -1637,6 +1643,7 @@ id qmui_view_offset_helper
 id radio
 id record
 id register
+id request
 id right
 id right_icon
 id right_side

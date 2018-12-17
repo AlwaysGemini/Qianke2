@@ -52,7 +52,7 @@ public class Statistics_Fragment extends Fragment {
 
     private void initdata(){
 
-        for(int i = 0; i < 30 ; i++){
+        for(int i = 1; i < 30 ; i++){
             Record record = new Record("1620520010"+String.valueOf(i),"未签到");
             records.add(record);
         }
